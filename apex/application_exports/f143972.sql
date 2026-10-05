@@ -80,7 +80,6 @@ wwv_imp_workspace.create_flow(
 ,p_alias=>nvl(wwv_flow_application_install.get_application_alias,'ORACLE-CHANGE-MANAGEMENT-SYSTEM')
 ,p_page_view_logging=>'YES'
 ,p_page_protection_enabled_y_n=>'Y'
-,p_checksum_salt=>'42E87C3603EAF3D6E5EE1B2A7F03612154D5BB61F717AA9CAB4164E09252759B'
 ,p_bookmark_checksum_function=>'SH512'
 ,p_compatibility_mode=>'26.1'
 ,p_flow_language=>'en'
